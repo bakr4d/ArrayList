@@ -23,7 +23,7 @@ public class FiewExample {
    // or 
    Math n5=new Math(3);
    Math n6=new Math(32);
-   Math n7=n5.add(n6);
+   Math n7=n6.add(n5);
    System.out.println("The sum of 2 function by the Third way:"+n7.val);;
    
 

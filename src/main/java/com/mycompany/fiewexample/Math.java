@@ -13,7 +13,7 @@ public class Math {
     
     public Math(){}//default Constructor;
     public Math(int val ){
-        this.val=val;// for n1 =2
+        this.val=val;//This? refere to the object or the inctance that call the Method or the function
         //for n2=5
     }
    public static Math add(Math n1,Math n2){
@@ -22,9 +22,9 @@ public class Math {
    return n3;
    
     }
-    public Math add(Math n6){
+    public Math add(Math n5){
       Math n7=new Math();
-    n7.val=this.val+n6.val;
+    n7.val=this.val+n5.val;
    return n7;
     
 }
